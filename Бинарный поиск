@@ -20,7 +20,7 @@ int main()
 		printf("%2d. k[%2d]=%3d: r[%2d]= ", i, i, k[i], i);
 		scanf("%d", &r[i]);
 	}
-	printf("Введите key: ");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ key: ");
 	scanf("%d", &key);
 	int left = 0;
 	int right = 19;
@@ -39,7 +39,7 @@ int main()
 		left = mid + 1;
 	}
 	if (search == -1)
-	printf("Элемент не найден!\n");
+	printf("ГќГ«ГҐГ¬ГҐГ­ГІ Г­ГҐ Г­Г Г©Г¤ГҐГ­!\n");
 	else
 	printf("%d. key= %d. r[%d]=%d", search, k[search], search, r[search]);
 	getchar(); getchar();
