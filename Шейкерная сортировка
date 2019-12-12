@@ -3,7 +3,7 @@ void shekerSort(double *mass, int count)
 {
 	int left = 0, right = count - 1;
 	int flag = 1;
-	printf("Введите числа");
+	printf("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г ");
 	while ((left < right) && flag > 0)
 	{
 		flag = 0;
