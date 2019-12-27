@@ -12,7 +12,6 @@ int main(int* argc, char* argv)
 		d+=atoi(&x)*sign;
 		sign*=-1;
 		x = getchar();
-//printf("%d %d\n",b,x);
 	}
 	printf("a = %d\n b = %d\n c = %d\n d = %d\n",a,b,c,d);
 	return 0;
