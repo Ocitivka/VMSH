@@ -1,19 +1,18 @@
 #include <stdio.h>
+#include <stdring.h>
 int main()
 {
-  int i=0,r=0;
+ 	int i=0,r=0;
 	char s[50],k;
-
 	printf("Введите строку: ");
-	scanf("%s",&s);
+	scanf("%s",s);
 	printf("\n");
-
-	r=strlen(s)-1;
-	for (i=0; i<r/2; i++)
+	r=strlen(s) - 1;
+	for (i=0; i<r/2 + 1; i++)
 		{
 			k=s[i];
-			s[i]=s[r-i];
-			s[r-i]=k;
+			s[i]=s[r - i];
+			s[r - i]=k;
 		}
 
 	printf("%s\n",s);
