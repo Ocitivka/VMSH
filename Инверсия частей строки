@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+  int i=0,r=0;
+	char s[50],k;
+
+	printf("Введите строку: ");
+	scanf("%s",&s);
+	printf("\n");
+
+	r=strlen(s)-1;
+	for (i=0; i<r/2; i++)
+		{
+			k=s[i];
+			s[i]=s[r-i];
+			s[r-i]=k;
+		}
+
+	printf("%s\n",s);
+}
